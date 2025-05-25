@@ -22,4 +22,4 @@ Tüm hareket hücrelerini en sağa ulaştırmak. EMP ile çevreyi temizle, strat
 [YouTube Video Linki](https://youtube.com/link-gelicek)
 
 ## 📡 Yayın Linki
-https://github.com/EmreKaraomer/emrekaraomer.git
+https://github.com/EmreKaraomer/NanoBot-Game
