@@ -19,7 +19,7 @@ Tüm hareket hücrelerini en sağa ulaştırmak. EMP ile çevreyi temizle, strat
 ![Oyun Ekranı](images/GameBG.png)
 
 ## ▶️ Oynanış Videosu
-[YouTube Video Linki](https://youtube.com/link-gelicek)
+https://youtu.be/ogFw3br92j0
 
 ## 📡 Yayın Linki
 https://github.com/EmreKaraomer/NanoBot-Game
