@@ -1,0 +1,128 @@
+/* Arka Planlar */
+body.menu-bg {
+    background-image: url('MenuBG.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  body.game-bg {
+    background-image: url('GameBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  /* Ana Menü */
+  .menu {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 5;
+  }
+  
+  .menu button {
+    padding: 30px 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.8);
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .menu button:hover {
+    background-color: rgba(0, 255, 255, 1);
+  }
+  
+  /* Kontrol Paneli */
+  #controls {
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    z-index: 10;
+  }
+  
+  #controls button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #00ffff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #controls button:hover {
+    background-color: #00cccc;
+  }
+  
+  /* Hücre Paneli */
+  #cellPanel {
+    position: absolute;
+    bottom: 90px;
+    right: 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10;
+  }
+  
+  #cellPanel button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #00ccff;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #cellPanel button:hover {
+    background-color: #0099cc;
+  }
+  
+  /* Bilgi Göstergeleri */
+  #timerDisplay,
+  #scoreDisplay,
+  #levelDisplay {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 100;
+  }
+  
+  #timerDisplay {
+    top: 20px;
+    right: 20px;
+    color: #ffcc00;
+  }
+  
+  #scoreDisplay {
+    top: 100px;
+    right: 20px;
+    color: #00ff00;
+  }
+  
+  #levelDisplay {
+    top: 60px;
+    right: 20px;
+    color: #00ffff;
+  }
+  

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NanoBot Rescue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="menu-bg" id="bodyRoot">
+
+  <!-- Ana Menü -->
+  <div class="menu" id="mainMenu">
+    <button class="menu-button" onclick="startGame()">PLAY</button>
+  </div>
+
+  <!-- Oyun Alanı -->
+  <canvas id="gameCanvas" width="1920" height="1080" style="display: none;"></canvas>
+
+  <!-- Kontroller -->
+  <div id="controls" style="display: none;">
+    <button onclick="startSimulation()">Simülasyonu Başlat</button>
+    <button onclick="resetGrid()">Sıfırla</button>
+  </div>
+  
+  <div id="empDisplay" style="display:none;">EMP: 2</div>
+
+  <!-- Hücre Paneli -->
+  <div id="cellPanel" style="display: none;">
+    <p>Hücre Türünü Seç:</p>
+    <button onclick="selectCellType('mover')">Hareket Hücresi</button>
+    <button onclick="selectCellType('firewall')">Engelleyici Hücre</button>
+  </div>
+
+  <!-- Göstergeler -->
+  <div id="timerDisplay" style="display: none;">Süre: 15</div>
+  <div id="scoreDisplay" style="display: none;">Skor: 0</div>
+  <div id="levelDisplay" style="display: none;">Seviye: 1</div>
+
+  <!-- Ses Efektleri -->
+  <audio id="clickSound" src="sounds/click.mp3" preload="auto"></audio>
+  <audio id="successSound" src="sounds/success.mp3" preload="auto"></audio>
+  <audio id="failSound" src="sounds/fail.mp3" preload="auto"></audio>
+
+  <!-- JavaScript -->
+  <script src="game.js"></script>
+</body>
+</html>
